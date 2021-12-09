@@ -1,0 +1,68 @@
+* {
+  padding: 0px;
+  border: 0px;
+  box-sizing: border-box;
+}
+.app-container {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/reviews-bg.png');
+  height: 100vh;
+  width: 80vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.carousel-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.review-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 900px;
+}
+.left-button {
+  background-color: transparent;
+  cursor: pointer;
+}
+.right-button {
+  background-color: transparent;
+  cursor: pointer;
+}
+.heading {
+  color: #ffffff;
+  text-align: center;
+}
+.description {
+  text-align: center;
+}
+
+@media screen and (max-width: 1200px) {
+  .review-container {
+    width: 700px;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .review-container {
+    width: 500px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .review-container {
+    width: 400px;
+  }
+  .app-container {
+    width: 100vw;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .review-container {
+    width: 250px;
+  }
+}
